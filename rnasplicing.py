@@ -67,4 +67,9 @@ print("Translation Done!")
 ############################################################################################
 # Output the protein formed
 print("Protein=",protein)
+
+f=open("Output.txt","w")
+f.write(">Protein\n")
+f.write(str(protein))
+
 ############################################################################################
